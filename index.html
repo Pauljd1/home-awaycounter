@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<br lang="en">
+  <head>
+    <link
+      href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ScoreBoard</title>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <!--Home-->
+
+        <h3>HOME</h3>
+        <div id="box1">0</div>
+        <br />
+        <button class="button" onclick="onepointhome()">+1</button>
+        <button class="button" onclick="twopointhome()">+2</button>
+        <button class="button" onclick="threepointhome()">+3</button>
+      </div>
+      <div>
+
+        <!--Away-->
+
+        <h3>AWAY</h3>
+        <div id="box2">0</div>
+        <br />
+        <button class="button" onclick="onepointaway()">+1</button>
+        <button class="button" onclick="twopointaway()">+2</button>
+        <button class="button" onclick="threepointaway()">+3</button>
+      </div>
+    </div>
+    <br />
+
+    <!--Reset-->
+
+    <div id="Reset">
+      <button class="reset" onclick="resetboth()">Reset</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+
+  <!--Footer-->
+  
+  <footer id="footer">
+    <p>Paul Davidson</p>
+    <p><a href="www.linkedin.com/in/paul-davidson-4641b4307">Linkdin</a></p>
+  </footer>
+</html>
+
